@@ -1,0 +1,256 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+body,html{
+    height: 100%;
+}
+body
+{
+    overflow-x: hidden;
+}
+.link
+{
+    position:absolute;
+    width: 100%;
+    height: 100vh;
+    left: 0%;
+    top: 0%;
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content:space-evenly;
+    align-items: center;
+    transform: translateX(100%);
+    
+}
+.link a{
+    color: black;
+    font-size: 1.5rem;
+    font-weight: 700;
+    text-transform:capitalize;
+}
+
+.bkimg
+{
+    background: url('/p&v/hero.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    object-fit: cover;
+    width: 100%;
+    min-height: 100vh;
+    position: absolute;
+    top: 0%;
+    right: 0%;
+    z-index: -1;
+}
+.front-page
+{
+  min-height: 100vh;
+}
+.navbar
+{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 1.5rem;
+    padding: 40px 150px;
+}
+.navbar .logo
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+}
+.navbar img{
+     transform: scale(0.90);
+}
+.navbar h3{
+    font-size: 1.50rem;
+    font-family: 'Satisfy', cursive;
+    transform: translateY(5px);
+}
+.navbar .ham
+{
+    cursor: pointer;
+    z-index: 10;
+}
+.navbar .ham .line
+{
+    box-shadow: 2px 4px 12px rgba(0, 0,0,0.7);
+}
+.main
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    margin-top: 8rem;
+}
+h2{
+    font-size: 2.70rem;
+    line-height: 125%;
+    padding: 0.4rem 1rem;
+    font-family: 'Crimson Text', serif;
+    text-shadow: 4xp 8px 12px rgba(0, 0,0,0.5);
+    text-align: center;
+}
+h3{
+    font-size: 1.80rem;
+    line-height: 125%;
+    font-family: 'Crimson Text', serif;
+    text-shadow: 4xp 8px 12px rgba(0, 0,0,0.5);
+    text-align: center;
+    padding: 0.4rem 1rem;
+}
+.button
+{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    margin-top: 5rem;
+}
+.b1
+{
+    text-align: center;
+    margin-right: 10px;
+    border: none;
+    border-radius: 5px;
+    width: 150px;
+    height: 60px;
+    cursor: pointer;
+    text-align: center;
+    color: #fff;
+    font-weight: 500;
+    font-size: 1rem;
+    background-color: #272a2c;
+    box-shadow: 5px 5px 20px rgba(0, 0,0,0.8);
+}
+.b2
+{
+    text-align: center;
+    margin-right: 10px;
+    border: none;
+    border-radius: 5px;
+    width: 150px;
+    height: 60px;
+    cursor: pointer;
+    text-align: center;
+    color: black;
+    background-color: #de9e50;
+    font-weight: 500;
+    font-size: 1rem;
+    box-shadow: 5px 5px 20px rgba(0, 0,0,0.8);
+
+}
+.b2 a
+{
+    text-decoration: none;
+    color: black;
+    font-weight: 500;
+    font-size: 1rem;
+}
+.center
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 10px;
+}
+.heading
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.vedios
+{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+}
+.heading h2
+{
+    font-family: 'Lobster', cursive;
+}
+.heading h3
+{
+    font-family: 'Lobster', cursive;
+}
+.vD
+{
+    margin-right: 25px;
+    height: 550px;
+    position: relative;
+}
+.vD video
+{
+    width: 100%;
+    height: 100%;
+    border: none;
+    border-radius: 10px;
+    box-shadow: 5px 5px 20px rgba(0, 0,0,0.4);
+}
+
+.vD h2
+{
+    position: absolute;
+    transform: translate(50%,-150%);
+    text-shadow: 5px 5px 20px rgba(0, 0,0,0.8);
+    font-family: 'Lobster', cursive;
+    font-weight: 300;
+    color:#de9e50
+}
+
+.story
+{
+    display: flex;
+    justify-content:space-evenly;
+    margin-top:  10rem;
+    padding-bottom: 4rem;
+}
+.left
+{
+    width: 500px;
+    height: 700px;
+    display: flex;
+    justify-content:flex-start;
+    text-align:left;
+    flex-direction: column;
+    margin-left:  4rem;
+}
+.left h2
+{
+    font-family: 'Crete Round', serif;
+    text-align: left;
+    margin-bottom: 1rem;
+}
+.left p
+{
+    text-align: left;
+    font-size: 1.2rem;
+    line-height: 125%;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+}
+.right
+{
+    width: 500px;
+    height: 700px;
+    border: none;
+    border-radius: 10px;
+    margin-right:  4rem;
+}
+.right img
+{
+  width: 100%;
+  height: 100%;
+  box-shadow: 5px 5px 20px rgba(0, 0,0,0.4);
+
+}
